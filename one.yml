@@ -1,0 +1,8 @@
+---
+ - name: Welcome to my world
+   hosts: ansi
+   tasks:
+   - name: Display my name
+     debug:
+       msg: " My name is shyam"
+...
